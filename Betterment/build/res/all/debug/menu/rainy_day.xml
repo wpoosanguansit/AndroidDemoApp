@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_goals"
+        android:title="@string/action_goals"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_logout"
+          android:title="@string/action_logout"
+          android:orderInCategory="100"
+          android:showAsAction="never" />
+</menu>
+<!-- From: /Users/watt/Desktop/Projects/AndroidStudio/Projects/Betterment/src/main/res/menu/rainy_day.xml -->

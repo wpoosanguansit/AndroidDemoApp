@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:custom="http://schemas.android.com/apk/res-auto/com.betterment.widgets"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:rowCount="10"
+                android:columnCount="5" >
+
+        <TextView
+                android:layout_row="0"
+                android:layout_column="0"
+                android:text="Stock Market"
+                android:typeface="serif"
+                android:layout_columnSpan="1"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="left"
+                android:textSize="14dip"  />
+        <Space
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_width="50dp"
+                android:layout_height="1dp" />
+        <TextView
+                android:layout_row="2"
+                android:layout_column="0"
+                android:text="Allocation 60%"
+                android:typeface="serif"
+                android:layout_columnSpan="2"
+                android:layout_margin="10dp"
+                android:layout_gravity="left"
+                android:textSize="12dip"  />
+        <Space
+                android:layout_row="2"
+                android:layout_column="2"
+                android:layout_columnSpan="1"
+                android:layout_width="50dp"
+                android:layout_height="10dp" />
+
+        <TextView
+                android:layout_row="2"
+                android:layout_column="3"
+                android:text=" $31,668.35"
+                android:typeface="serif"
+                android:layout_columnSpan="2"
+                android:layout_margin="10dp"
+                android:layout_gravity="left"
+                android:textSize="12dip"  />
+
+        <TextView
+                android:layout_row="3"
+                android:layout_column="0"
+                android:text="Treasury Bond"
+                android:typeface="serif"
+                android:layout_columnSpan="1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="left"
+                android:textSize="14dip"  />
+        <Space
+                android:layout_row="4"
+                android:layout_column="0"
+                android:layout_width="50dp"
+                android:layout_height="1dp" />
+        <TextView
+                android:layout_row="5"
+                android:layout_column="0"
+                android:text="Allocation 40%"
+                android:typeface="serif"
+                android:layout_columnSpan="2"
+                android:layout_margin="10dp"
+                android:layout_gravity="left"
+                android:textSize="12dip"  />
+        <Space
+                android:layout_row="5"
+                android:layout_column="2"
+                android:layout_columnSpan="1"
+                android:layout_width="50dp"
+                android:layout_height="10dp" />
+        <TextView
+                android:layout_row="5"
+                android:layout_column="3"
+                android:text=" $21,258.35"
+                android:typeface="serif"
+                android:layout_columnSpan="2"
+                android:layout_margin="10dp"
+                android:layout_gravity="left"
+                android:textSize="12dip"  />
+        <Space
+                android:layout_row="6"
+                android:layout_column="0"
+                android:layout_columnSpan="5"
+                android:layout_width="50dp"
+                android:layout_height="10dp" />
+
+
+        <com.betterment.widgets.AllocationMeter
+                android:layout_row="7"
+                android:layout_column="0"
+                android:layout_columnSpan="5"
+                android:layout_marginLeft="20dip"
+                android:id="@+id/AllocationMeter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:maxAllocation="100"
+                custom:currentAllocation="60"/>
+        <SeekBar
+                android:layout_row="8"
+                android:layout_column="0"
+                android:layout_columnSpan="4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:max="100"
+                android:progress="60"
+                android:secondaryProgress="0"
+                android:id="@+id/slider"/>
+
+        <Button
+                android:layout_row="9"
+                android:layout_column="0"
+                android:layout_columnSpan="5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/action_change_allocation_button"
+                android:text="Change Allocation" />
+
+    </GridLayout>
+
+</RelativeLayout><!-- From: /Users/watt/Desktop/Projects/AndroidStudio/Projects/Betterment/src/main/res/layout/fragments_allocation_tab.xml -->

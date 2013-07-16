@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="@color/titlebackgroundcolor">
+
+    <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/title"
+            android:text="@string/title_activity_rainy_day"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="@color/titletextcolor"
+            android:gravity ="center"/>
+
+
+</LinearLayout><!-- From: /Users/watt/Desktop/Projects/AndroidStudio/Projects/Betterment/src/main/res/layout/rainy_day_title.xml -->

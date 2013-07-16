@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="WindowTitleBackgroundStyle">
+        <item name="android:background">@color/titlebackgroundcolor</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="Widget.Sherlock.Light.ActionBar">
+        <item name="android:background">@color/titlebackgroundcolor</item>
+        <item name="background">@color/titlebackgroundcolor</item>
+        <item name="android:titleTextStyle">@style/ActionBar.TitleTextStyle</item>
+        <item name="titleTextStyle">@style/ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="ActionBar.TitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.TabText" parent="Widget.Sherlock.ActionBar.TabText">
+        <item name="android:textSize">8dip</item>
+    </style>
+</resources>

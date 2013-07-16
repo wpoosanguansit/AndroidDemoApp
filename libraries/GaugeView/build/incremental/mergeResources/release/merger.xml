@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/watt/Desktop/Projects/AndroidStudio/Projects/libraries/GaugeView/res" >
+            <file
+                name="brushed_alu"
+                path="/Users/watt/Desktop/Projects/AndroidStudio/Projects/libraries/GaugeView/res/drawable/brushed_alu.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="brushed_alu2"
+                path="/Users/watt/Desktop/Projects/AndroidStudio/Projects/libraries/GaugeView/res/drawable/brushed_alu2.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="carbon_fibre"
+                path="/Users/watt/Desktop/Projects/AndroidStudio/Projects/libraries/GaugeView/res/drawable/carbon_fibre.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="light_alu"
+                path="/Users/watt/Desktop/Projects/AndroidStudio/Projects/libraries/GaugeView/res/drawable/light_alu.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                path="/Users/watt/Desktop/Projects/AndroidStudio/Projects/libraries/GaugeView/res/values/arrays.xml"
+                qualifiers="" >
+                <string-array name="ranges" >
+                    <item>
+16
+                    </item>
+                    <item>
+25
+                    </item>
+                    <item>
+40
+                    </item>
+                    <item>
+100
+                    </item>
+                </string-array>
+                <string-array name="rangeColors" >
+                    <item>
+#E7202B
+                    </item>
+                    <item>
+#E86F21
+                    </item>
+                    <item>
+#E8E721
+                    </item>
+                    <item>
+#1BCA21
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="/Users/watt/Desktop/Projects/AndroidStudio/Projects/libraries/GaugeView/res/values/attrs.xml"
+                qualifiers="" >
+                <attr
+                    name="showScale"
+                    format="boolean" />
+                <attr
+                    name="scaleStartAngle"
+                    format="float" />
+                <attr
+                    name="innerRimWidth"
+                    format="float" />
+                <attr
+                    name="showRanges"
+                    format="boolean" />
+                <attr
+                    name="scaleStartValue"
+                    format="float" />
+                <attr
+                    name="textValueSize"
+                    format="float" />
+                <attr
+                    name="textShadowColor"
+                    format="color" />
+                <attr
+                    name="rangeValues"
+                    format="reference" />
+                <attr
+                    name="showOuterShadow"
+                    format="boolean" />
+                <attr
+                    name="textValue"
+                    format="string|reference" />
+                <attr
+                    name="showNeedle"
+                    format="boolean" />
+                <attr
+                    name="subdivisions"
+                    format="integer" />
+                <attr
+                    name="needleHeight"
+                    format="float" />
+                <attr
+                    name="textValueColor"
+                    format="color" />
+                <attr
+                    name="scaleEndValue"
+                    format="float" />
+                <attr
+                    name="textUnitColor"
+                    format="color" />
+                <attr
+                    name="scalePosition"
+                    format="float" />
+                <attr
+                    name="textUnit"
+                    format="string|reference" />
+                <attr
+                    name="textUnitSize"
+                    format="float" />
+
+                <declare-styleable name="GaugeView" >
+                </declare-styleable>
+
+                <attr
+                    name="outerBorderWidth"
+                    format="float" />
+                <attr
+                    name="showInnerRim"
+                    format="boolean" />
+                <attr
+                    name="needleWidth"
+                    format="float" />
+                <attr
+                    name="outerRimWidth"
+                    format="float" />
+                <attr
+                    name="showOuterBorder"
+                    format="boolean" />
+                <attr
+                    name="innerRimBorderWidth"
+                    format="float" />
+                <attr
+                    name="showText"
+                    format="boolean" />
+                <attr
+                    name="outerShadowWidth"
+                    format="float" />
+                <attr
+                    name="showOuterRim"
+                    format="boolean" />
+                <attr
+                    name="divisions"
+                    format="integer" />
+                <attr
+                    name="rangeColors"
+                    format="reference" />
+            </file>
+        </source>
+        <source path="/Users/watt/Desktop/Projects/AndroidStudio/Projects/libraries/GaugeView/build/res/rs/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/watt/Desktop/Projects/AndroidStudio/Projects/libraries/GaugeView/src/release/res" />
+    </dataSet>
+
+</merger>

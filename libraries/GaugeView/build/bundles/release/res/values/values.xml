@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: /Users/watt/Desktop/Projects/AndroidStudio/Projects/libraries/GaugeView/res/values/arrays.xml -->
+    <string-array name="rangeColors">
+        <item>#E7202B</item>
+        <item>#E86F21</item>
+        <item>#E8E721</item>
+        <item>#1BCA21</item>
+    </string-array>
+    <string-array name="ranges">
+        <item>16</item>
+        <item>25</item>
+        <item>40</item>
+        <item>100</item>
+    </string-array>
+    <!-- From: /Users/watt/Desktop/Projects/AndroidStudio/Projects/libraries/GaugeView/res/values/attrs.xml -->
+    <declare-styleable name="GaugeView">
+        <attr name="showOuterShadow" format="boolean" />
+        <attr name="showOuterBorder" format="boolean" />
+        <attr name="showOuterRim" format="boolean" />
+        <attr name="showInnerRim" format="boolean" />
+        <attr name="showNeedle" format="boolean" />
+        <attr name="showScale" format="boolean" />
+        <attr name="showRanges" format="boolean" />
+        <attr name="showText" format="boolean" />
+        <attr name="outerShadowWidth" format="float" />
+        <attr name="outerBorderWidth" format="float" />
+        <attr name="outerRimWidth" format="float" />
+        <attr name="innerRimWidth" format="float" />
+        <attr name="innerRimBorderWidth" format="float" />
+        <attr name="needleWidth" format="float" />
+        <attr name="needleHeight" format="float" />
+        <attr name="scalePosition" format="float" />
+        <attr name="scaleStartValue" format="float" />
+        <attr name="scaleEndValue" format="float" />
+        <attr name="scaleStartAngle" format="float" />
+        <attr name="divisions" format="integer" />
+        <attr name="subdivisions" format="integer" />
+        <attr name="rangeValues" format="reference" />
+        <attr name="rangeColors" format="reference" />
+        <attr name="textValue" format="string|reference" />
+        <attr name="textValueColor" format="color" />
+        <attr name="textValueSize" format="float" />
+        <attr name="textUnit" format="string|reference" />
+        <attr name="textUnitColor" format="color" />
+        <attr name="textUnitSize" format="float" />
+        <attr name="textShadowColor" format="color" />
+    </declare-styleable>
+
+</resources>

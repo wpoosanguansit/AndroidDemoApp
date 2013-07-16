@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomTheme" parent="Theme.Sherlock.Light">
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:icon">@drawable/abs__item_background_holo_light</item>
+        <item name="icon">@drawable/abs__item_background_holo_light</item>
+        <item name="android:actionBarTabTextStyle">@style/Widget.TabText</item>
+        <item name="actionBarTabTextStyle">@style/Widget.TabText</item>
+    </style>
+
+</resources>

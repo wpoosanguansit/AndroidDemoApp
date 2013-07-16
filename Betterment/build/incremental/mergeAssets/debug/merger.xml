@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="ProjectsLibrariesActionBarSherlockActionbarsherlockUnspecified.aar" >
+        <source path="/Users/watt/Desktop/Projects/AndroidStudio/Projects/Betterment/build/exploded-bundles/ProjectsLibrariesActionBarSherlockActionbarsherlockUnspecified.aar/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/watt/Desktop/Projects/AndroidStudio/Projects/Betterment/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/watt/Desktop/Projects/AndroidStudio/Projects/Betterment/src/debug/assets" />
+    </dataSet>
+
+</merger>

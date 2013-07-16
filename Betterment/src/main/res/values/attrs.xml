@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AllocationMeter">
+        <attr name="maxAllocation" format="float"></attr>
+        <attr name="currentAllocation" format="float"></attr>
+        <attr name="onColors" format="color"></attr>
+        <attr name="offColors" format="color"></attr>
+        <attr name="scaleColors" format="color"></attr>
+        <attr name="scaleTextSizes" format="dimension"></attr>
+        <attr name="readingTextSizes" format="dimension"></attr>
+    </declare-styleable>
+</resources>
